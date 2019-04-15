@@ -5,6 +5,7 @@ FROM docker.bluelight.limited:5000/bluelightltd/microkube-user-image
 ENV RUBY_VER=2.6.0
 
 
+
 # # # Installing $RUBY_VER
 RUN             . /etc/rvmrc && \
         export PATH="$PATH:/usr/local/rvm/bin/" && \
